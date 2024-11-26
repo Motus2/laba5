@@ -26,7 +26,7 @@ def computer_turn(stones):
 def play_game():
     stones = random.randint(4, 30)
     print(f"На столе {stones} камней.")
-
+###123
     while stones > 0:
         user_pick = user_turn(stones)
         stones -= user_pick
