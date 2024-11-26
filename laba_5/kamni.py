@@ -41,5 +41,6 @@ def play_game():
         if stones == 0:
             print("Вы победили.")
             break
+            
 if __name__ == "__main__":
     play_game()
